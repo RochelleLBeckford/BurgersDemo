@@ -3,7 +3,7 @@
 <!-- - this is a bullet -->
 
 <!-- ## this is a sub heading -->
-### Create a Burgers Demo with Session/CRUD
+### Create a Burgers Demo with Create and Read Functions
 
 
 <!-- 
@@ -136,7 +136,7 @@ when you make this
 - add this to the MainController.java
 ```
 //MainController.java
-    @Autowired BurgerService burgerservice;
+    @Autowired BurgerService burgerService;
 ```
 
 - To connect service with controller
